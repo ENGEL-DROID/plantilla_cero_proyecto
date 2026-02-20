@@ -3,6 +3,7 @@ Antes de hacer nada, lee estos archivos en orden:
 2. `/docs/STACK.md` — decisiones técnicas detalladas
 3. `/docs/FOLDER_STRUCTURE.md` — arquitectura de carpetas acordada
 4. `/docs/EXECUTION_PLAN.md` — fases, subfases e hitos completos
+5. `/docs/ESTADO_DEL_PROYECTO.md` — estado actual del proyecto y tracker de progreso
 
 Una vez leídos todos, confirma que los entendiste y espera mi orden para iniciar.
 
@@ -81,6 +82,8 @@ ESTADO DEL PROYECTO
 ━━━━━━━━━━━━━━━━━━
 Leyenda: ✅ completada · 🔄 en progreso · ⏳ pendiente · 🔴 bloqueada en hito
 
+**ACCIÓN:** Al finalizar cada subfase o al llegar a un hito, actualiza el tracker en `docs\ESTADO_DEL_PROYECTO.md` reflejando el nuevo estado de la fase correspondiente.
+
 ---
 
 # REGLAS
@@ -95,6 +98,7 @@ NUNCA:
 
 SIEMPRE:
 - Mantener el tracker de estado visible en cada respuesta
+- Actualizar el tracker al finalizar cada subfase o al llegar a un hito `docs\ESTADO_DEL_PROYECTO.md`
 - Código completo y funcional, no pseudocódigo ni placeholders
 - Manejo de errores explícito en cada función
 - Variables de entorno para todo secreto o configuración externa
@@ -109,5 +113,6 @@ Lee los 4 documentos de referencia. Confirma que los has entendido resumiendo:
 2. Las funcionalidades principales del MVP en 3 líneas cada una
 3. El stack que usarás
 4. Las fases definidas y sus hitos de revisión humana
+5. El estado actual del proyecto según el tracker
 
-Luego espera mi orden: "INICIA FASE 0" para comenzar.
+Luego espera mi orden: "INICIA FASE 0" ó puedes proponer tú la FASE según el `docs\ESTADO_DEL_PROYECTO.md` para comenzar.
